@@ -82,7 +82,7 @@ local function starthacking(entity)
         
         if success then
             local chance = math.random(1,100)
-            if chance > 50 then
+            if chance >= 50 then -- dispatch to posle ked je chance nad 50 alebo rovna sa 50
                 policealert()
             end
             --policealert()
