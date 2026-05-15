@@ -81,7 +81,11 @@ local function starthacking(entity)
         ClearPedTasks(PlayerPedId())
         
         if success then
-            policealert()
+            local chance = math.random(1,100)
+            if chance > 50 then
+                policealert()
+            end
+            --policealert()
             TriggerServerEvent('dnj_atmrobbery:hacksuccess', atmid)
             if cached[atmid] then cached[atmid].isopened = true end
         else
