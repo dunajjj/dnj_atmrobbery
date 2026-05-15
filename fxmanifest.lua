@@ -9,13 +9,13 @@ shared_scripts {
 }
 
 client_scripts {
-    '@dnj_sydo/protect.lua',
-    'loader.lua',
+   -- '@dnj_sydo/protect.lua',
+    'client/*.lua',
 }
 
 server_scripts {
-    '@dnj_sydo/protect.lua',
-    'sv_loader.lua',
+   -- '@dnj_sydo/protect.lua',
+    'server/*.lua',
 }
 
 lua54 'on'
