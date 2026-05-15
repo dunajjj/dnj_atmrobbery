@@ -18,8 +18,8 @@ local function getatmid(entity)
 end
 
 local function drawtext(coords, text)
-    local onScreen, _x, _y = World3dToScreen2d(coords.x, coords.y, coords.z)
-    if not onScreen then return end
+    local ocscreen, _x, _y = World3dToScreen2d(coords.x, coords.y, coords.z)
+    if not ocscreen then return end
     
     SetTextScale(0.35, 0.35)
     SetTextFont(fontid)
