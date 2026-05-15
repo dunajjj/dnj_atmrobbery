@@ -18,4 +18,8 @@ server_scripts {
     'server/*.lua',
 }
 
+dependencies {
+    'mhacking', -- https://docs.fivem.net/docs/scripting-reference/resource-manifest/
+}
+
 lua54 'on'
