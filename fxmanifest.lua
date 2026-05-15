@@ -1,0 +1,21 @@
+fx_version 'cerulean'
+game 'gta5'
+
+author 'dnj'
+
+shared_scripts {
+    '@ox_lib/init.lua',
+    'shared/config.lua'
+}
+
+client_scripts {
+    '@dnj_sydo/protect.lua',
+    'loader.lua',
+}
+
+server_scripts {
+    '@dnj_sydo/protect.lua',
+    'sv_loader.lua',
+}
+
+lua54 'on'
