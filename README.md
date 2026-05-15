@@ -3,4 +3,4 @@
 
 # Dependencies 
 
-Mhacking [ https://github.com/justgreatgaming/FiveM-Scripts-2/tree/master ]
+mhacking [ https://github.com/justgreatgaming/FiveM-Scripts-2/tree/master ]
